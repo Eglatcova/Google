@@ -1,0 +1,183 @@
+.allboxupper {
+  display: flex;
+  height: 71px;
+  width: 100%;
+  align-items: flex-end;
+}
+.rightabu {
+  display: flex;
+  width: auto;
+  height: 57px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo{
+  display: flex;
+  width: 145px;
+  height: 36px;
+  align-items: center;
+
+}
+.glogo{
+  width: 135px;
+  height: 47px;
+}
+.search-box {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  width: 638px;
+  border-radius: 28px;
+  height: 46px;
+  padding-right: 20px;
+  padding-left: 25px;
+  box-sizing: border-box;
+}
+.search-txt {
+  display: flex;
+  flex: 1 1 auto;
+  border: none;
+  outline: none;
+  padding: 0;
+  font-size: 16px;
+
+}
+.pericon{
+  display: flex;
+  width: 115px;
+  height: 100%;
+}
+.svg-kbrd {
+  width: 19px;
+  height: 19px;
+  fill: rgba(87, 90, 94, 0.952);  
+}
+.svg-rd {
+  width: 19px;
+  height: 19px;
+  fill: rgb(66, 133, 244);
+  
+}
+.svg-srch {
+  width: 18px;
+  height: 18px;
+  fill: rgb(66, 133, 244);
+}
+.icon{
+  display: flex;
+  width: calc(100%/3);
+  align-items: center;
+  justify-content: flex-end;
+}
+.leftabu {
+  display: flex;
+  width: auto;
+  height: 57px;
+  align-items: center;
+  margin-left: auto;
+}
+.staticbox1 {
+ 
+  width: 20px;
+}
+.staticbox2 {
+  width: 30px;
+}
+.square {
+  display: flex;
+  height: 25px;
+  fill: rgba(87, 90, 94, 0.952);
+}
+.emaildiv {
+  background-image: url(image/emailicon.png);
+  background-size: cover;
+  width: 36px;
+  height: 36px;
+}
+.allboxlower {
+  display: flex;
+  height: 50px;
+  width: auto;
+}
+.menu {
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  padding-left: 164px;
+}
+.all {
+display: flex;
+align-items: center;
+height: 37px;
+width: 100%;
+}
+.allicon{
+background-image: url(image/searchmenu.svg#a12345);
+background-size: cover; 
+width: 16px;
+height: 16px;
+margin-right:5px;
+}
+.alltitle, .picturetitle,.videotitle, .newstitle, .mapstitle, .moretitle, .tuningtitle, .instrumentstitle{
+ font-family: Arial, Helvetica, sans-serif;
+ color: rgba(87, 90, 94, 0.952);
+ font-size: 12.6px;
+}
+.picture, .video, .news, .maps, .more, .tuning, .instruments{
+margin-left: 24.3px;
+display: flex;
+align-items: center;
+height: 37px;
+width: auto;
+}
+.svgpicture, .svgvideo, .svgnews, .svgmaps, .svgmore {
+display: flex;
+fill: rgba(87, 90, 94, 0.952);
+width: 16px;
+height: 16px;
+margin-right:5px;
+margin-bottom:2px;
+}
+.svgmore {
+  margin-right: 0;
+}
+.emptycub {
+  display: flex;
+  width: 166px;
+}
+.strip {
+width: 100%;
+margin: 0;
+border-bottom: solid 1px rgba(87, 90, 94, 0.096);
+}
+
+
+/*анимация*/
+
+.all:hover {
+  box-shadow: 0px 3px 0.01px 0px rgb(66, 133, 244);
+}
+.picture:hover{
+  box-shadow:   0px 3px 0.01px 0px rgb(66, 133, 244);
+}
+.video:hover {
+  box-shadow: 0px 3px 0.01px 0px rgb(66, 133, 244);
+}
+.news:hover{
+  box-shadow: 0px 3px 0.01px 0px rgb(66, 133, 244);
+}
+.maps:hover{
+  box-shadow: 0px 3px 0.01px 0px rgb(66, 133, 244);
+}
+.more:hover{
+  box-shadow: 0px 3px 0.01px 0px rgb(66, 133, 244);
+}
+.tuning:hover{
+  box-shadow: 0px 3px 0.01px 0px rgb(66, 133, 244);
+}
+.instruments:hover {
+  box-shadow: 0px 3px 0.01px 0px rgb(66, 133, 244);
+}
